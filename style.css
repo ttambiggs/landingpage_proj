@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background: #1f2937;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-left {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.header-right {
+  margin: 0 0px 0 140px;
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+}
+
+.header, a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero {
+  margin: 0;
+  padding: 70px 0;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hero p {
+  margin: 0;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  width: 29%;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-right, img {
+  border-radius: 15%;
+}
+
+.hero-logo {
+  height: 89px;
+  width: 204px; 
+ }
+
+.hero-button {
+  width: 75px;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  border: none ;
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.info-title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 0 1 24%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.card img {
+  width: 150px;
+}
